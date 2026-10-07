@@ -1,16 +1,22 @@
-# React + Vite
+# 💈 Barbería El Templo - Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web moderna y responsiva desarrollada para **Barbería El Templo**. Permite a los clientes explorar el catálogo de cortes y servicios, realizar búsquedas personalizadas en tiempo real y agendar citas directamente integradas con **WhatsApp**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Características Principal
 
-## React Compiler
+- ✂️ **Catálogo de Servicios:** Visualización dinámica de cortes, precios y descripciones.
+- 🔍 **Búsqueda en Tiempo Real:** Filtro de servicios por nombre o descripción mediante URL query parameters (`/buscar?q=...`).
+- 📅 **Flujo de Reservas:** Selección de servicio y redirección automatizada a WhatsApp con mensaje preconfigurado.
+- 🎨 **Diseño Personalizado:** Interfaz en Modo Oscuro con acentos dorados (`#d4af37`), componentes UI interactivos y diseño responsivo con Bootstrap.
+- 📱 **Redes Sociales:** Botones interactivos en el footer para contacto directo y perfiles profesionales.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, React Router DOM
+- **Estilos:** Bootstrap 5, CSS3 (Efectos Uiverse/Custom)
+- **Vite**
+- **Despliegue:** Vercel
