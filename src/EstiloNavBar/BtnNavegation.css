@@ -1,0 +1,24 @@
+/* From Uiverse.io by barisdogansutcu */
+button {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+  border-radius: 8px !important;
+  padding: 8px 18px !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  letter-spacing: 1px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4) !important; /* Elimina el resplandor claro */
+  transition: all 0.3s ease !important;
+}
+
+button:hover {
+  background-color: #d4af37 !important; /* Pasa a dorado al poner el mouse */
+  color: #121212 !important;
+  border-color: #d4af37 !important;
+}
+
+button:active {
+  box-shadow: none;
+}

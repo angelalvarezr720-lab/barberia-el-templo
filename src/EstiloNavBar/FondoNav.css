@@ -1,0 +1,5 @@
+.fondo-navBar {
+  background-color: #121212 !important;
+  border-bottom: 2px outset rgba(212, 175, 55, 0.15) !important;
+  box-shadow: 0 5px 10px rgba(212, 175, 55, 0.15);
+}

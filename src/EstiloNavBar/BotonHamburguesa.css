@@ -1,0 +1,93 @@
+header .btn-hamburguesa,
+nav .btn-hamburguesa,
+.btn-hamburguesa {
+  background-color: #1e1e1e !important;
+  color: #e0e8eff6 !important;
+  border: 1px solid #e0e8eff6 !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: auto !important;
+  min-width: max-content;
+  cursor: pointer;
+  outline: none !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5) !important;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.btn-hamburguesa .icon {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-hamburguesa .icon svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.btn-hamburguesa .icon svg rect {
+  fill: #e0e8eff6 !important;
+  transition: fill 0.2s ease;
+}
+
+.btn-hamburguesa .text {
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Respuesta táctil para celulares (presión limpia sin quedarse pegado) */
+.btn-hamburguesa:active {
+  background-color: #121212 !important;
+  transform: scale(0.96);
+}
+
+/* Evita cambios de color o bordes azulosos de Bootstrap en focus */
+.btn-hamburguesa:focus,
+.btn-hamburguesa:focus-visible {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  border-color: #d4af37 !important;
+  outline: none !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Interacción de ratón únicamente para escritorio */
+@media (hover: hover) {
+  .btn-hamburguesa:hover {
+    background-color: #d4af37 !important;
+    border-color: #d4af37 !important;
+  }
+
+  .btn-hamburguesa:hover .text {
+    color: #121212 !important; /* El texto pasa a negro al hacer hover sobre dorado */
+  }
+
+  .btn-hamburguesa:hover .icon svg rect {
+    fill: #121212 !important; /* Las líneas pasan a negro sobre fondo dorado */
+  }
+}
+
+
+/*Desaparecer boton hamburguesa en pantallas grandes*/
+@media (min-width: 992px) {
+  header .btn-hamburguesa,
+  nav .btn-hamburguesa,
+  .btn-hamburguesa {
+    display: none !important;
+  }
+}

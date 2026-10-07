@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:wght@400;700&display=swap");
+.titulo{
+    font-family:  "Cinzel Decorative", serif;
+    text-align: center;
+}
+
+.texto-plano{
+  text-align: center;
+}
+
+.social-buttons-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.uiverse-social-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 10px;
+  border-radius: 30px;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.uiverse-social-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  color: #fff;
+}
+
+
+.uiverse-social-btn.linkedin:hover {
+  background-color: #0077b5;
+  border-color: #0077b5;
+  box-shadow: 0 5px 15px rgba(0, 119, 181, 0.4);
+}
+
+.uiverse-social-btn.github:hover {
+  background-color: #24292e;
+  border-color: #6e5494;
+  box-shadow: 0 5px 15px rgba(110, 84, 148, 0.4);
+}
+
+
+.uiverse-social-btn.ws:hover {
+  background-color: #25d366;
+  border-color: #25d366;
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+}

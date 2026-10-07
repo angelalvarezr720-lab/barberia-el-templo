@@ -1,0 +1,17 @@
+/* From Uiverse.io by ShrinilDhorda */
+.btn {
+  background-color: #d4af37 !important;
+  color: #121212 !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  border: none !important;
+  padding: 8px 16px !important;
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+background-color: #c5a059 !important;
+}
